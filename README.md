@@ -1,2 +1,1 @@
-# sap
-This repository is designed to handle SAP Developments Versioning
+# This repository is designed to handle SAP Developments Versioning
