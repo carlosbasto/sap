@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="mdCustomer" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="false">
+<descriptions defaultDescription="mdCustomer"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="c__customer">
+    <resourceUri>c__customer</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="c__customer">
+  <attributes>
+    <attribute id="CUSTOMER_ID" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CUSTOMER_ID"/>
+      <keyMapping columnObjectName="c__customer" columnName="CUSTOMER_ID"/>
+    </attribute>
+    <attribute id="CUSTOMER_CHILDREN" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CUSTOMER_CHILDREN"/>
+      <keyMapping columnObjectName="c__customer" columnName="CUSTOMER_CHILDREN"/>
+    </attribute>
+    <attribute id="CUSTOMER_GENDER_ID" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CUSTOMER_GENDER_ID"/>
+      <keyMapping columnObjectName="c__customer" columnName="CUSTOMER_GENDER_ID"/>
+    </attribute>
+    <attribute id="CUSTOMER_MARITAL_STATUS_ID" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CUSTOMER_MARITAL_STATUS_ID"/>
+      <keyMapping columnObjectName="c__customer" columnName="CUSTOMER_MARITAL_STATUS_ID"/>
+    </attribute>
+    <attribute id="CUSTOMER_MORTGAGE_ID" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CUSTOMER_MORTGAGE_ID"/>
+      <keyMapping columnObjectName="c__customer" columnName="CUSTOMER_MORTGAGE_ID"/>
+    </attribute>
+    <attribute id="CUSTOMER_AGE_ID" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CUSTOMER_AGE_ID"/>
+      <keyMapping columnObjectName="c__customer" columnName="CUSTOMER_AGE_ID"/>
+    </attribute>
+    <attribute id="CUSTOMER_INCOME_ID" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CUSTOMER_INCOME_ID"/>
+      <keyMapping columnObjectName="c__customer" columnName="CUSTOMER_INCOME_ID"/>
+    </attribute>
+    <attribute id="CUSTOMER_NAME" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CUSTOMER_NAME"/>
+      <keyMapping columnObjectName="c__customer" columnName="CUSTOMER_NAME"/>
+    </attribute>
+    <attribute id="CUSTOMER_JOB" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CUSTOMER_JOB"/>
+      <keyMapping columnObjectName="c__customer" columnName="CUSTOMER_JOB"/>
+    </attribute>
+    <attribute id="CUSTOMER_EDUCATION" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CUSTOMER_EDUCATION"/>
+      <keyMapping columnObjectName="c__customer" columnName="CUSTOMER_EDUCATION"/>
+    </attribute>
+    <attribute id="CUSTOMER_EMAIL" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CUSTOMER_EMAIL"/>
+      <keyMapping columnObjectName="c__customer" columnName="CUSTOMER_EMAIL"/>
+    </attribute>
+    <attribute id="CUSTOMER_CITY" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CUSTOMER_CITY"/>
+      <keyMapping columnObjectName="c__customer" columnName="CUSTOMER_CITY"/>
+    </attribute>
+    <attribute id="CUSTOMER_TIMESTAMP" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CUSTOMER_TIMESTAMP"/>
+      <keyMapping columnObjectName="c__customer" columnName="CUSTOMER_TIMESTAMP"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

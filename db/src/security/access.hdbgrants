@@ -1,0 +1,14 @@
+{
+  "HD2C": {
+    "object_owner": {
+      "roles": [
+        "hd2::core_external_access"
+      ]
+    },
+    "application_user": {
+      "roles": [
+        "hd2::core_external_access"
+      ]
+    }
+  }
+}

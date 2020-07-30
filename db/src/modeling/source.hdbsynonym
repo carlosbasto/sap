@@ -1,0 +1,20 @@
+{
+  "c__customer": {
+    "target": {
+      "object": "v.tb.customer",
+      "schema": "I865263"
+    }
+  },
+  "c__customerGender": {
+    "target": {
+      "object": "v.tb.customerGender",
+      "schema": "I865263"
+    }
+  },
+  "c__salesOrders": {
+    "target": {
+      "object": "v.tb.salesOrders",
+      "schema": "I865263"
+    }
+  }
+}
